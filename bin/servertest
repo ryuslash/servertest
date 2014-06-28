@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'servertest'
+eval IO.read("serverrun.rb"), CLIReporter.new().get_binding
